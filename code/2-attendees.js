@@ -23,16 +23,17 @@ function make2() {
   let numOfNumbers = prompt('How many numbers do you want to add?')
 
   let count = 0
-  let numOfnumbers = amount
-  let numberList = ''
+  let oldNumber = 0
+  number = Number(number)
 
-
-  while (count < numOfnumbers) {
-    let newNum = prompt('name a number')
-    newNum = Number(newNum)
-    numberList = numberList + newNum
-    numberList = Number(nmberList)
-    count = count + 1
+  while (count < number) {
+    let newNumber = prompt('name a number')
+    newNumber = Number(newNumber)
+    oldNumber = oldNumber + newNumber
+    oldNumber = Number (oldNumber)
+    count = count + 1 
   }
+
+
   alert(numberList)
 }
