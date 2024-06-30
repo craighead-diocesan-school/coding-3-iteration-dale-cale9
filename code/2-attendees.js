@@ -14,7 +14,6 @@ function attendees() {
     attendeeList = attendeeList + attendee + ', '
     count = count + 1
   }
-
   alert(attendeeList)
 }
 
@@ -22,11 +21,13 @@ function make2() {
 
   let numOfNumbers = prompt('How many numbers do you want to add?')
 
+let numberList = numOfNumbers
+
   let count = 0
   let oldNumber = 0
-  number = Number(number)
+  numOfNumbers = Number(numOfNumbers)
 
-  while (count < number) {
+  while (count < numOfNumbers) {
     let newNumber = prompt('name a number')
     newNumber = Number(newNumber)
     oldNumber = oldNumber + newNumber
@@ -35,5 +36,7 @@ function make2() {
   }
 
 
-  alert(numberList)
+  alert(oldNumber)
+  let average = oldNumber / numberList
+  alert ('The average is ' + average)
 }

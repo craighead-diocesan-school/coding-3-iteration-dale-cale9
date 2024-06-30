@@ -9,7 +9,7 @@ let series = ' '
 
   while(number > 0){
 square = number * number 
-series = (series + square + ' ')
+series = series + square + ' ,'
 number = number - 1
   }
 alert(series)
